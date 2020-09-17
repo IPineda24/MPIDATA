@@ -1,0 +1,46 @@
+html, body {
+    margin-top: 0;
+    background: url('img/fondo.jpg');
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+
+    margin: 0;
+}
+.fondo{
+    
+    background-image: url("../img/fondo.jpg");
+   
+}
+
+h1{
+    text-align: center;
+    font-size: 150px;
+}
+@media only screen and (max-width:768px) {
+    h1{
+        text-align: center;
+        font-size: 75px;
+    }
+  }
+h2{
+    text-align: center;
+}
+
+.cont{
+    margin: 30px;
+}
+a{
+    text-decoration: none;
+
+    color: ffbe0b;
+    font-weight: bold;
+}
+a:hover{
+    color: #DFDCE3;  
+}
+.container1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
