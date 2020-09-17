@@ -34,7 +34,7 @@ class BookController extends Controller
      */
     public function store(Request $request)
     {
-       
+      
         $od=$request->ss;
         $id=$request->od;
         $newBook = new Book($request->only([

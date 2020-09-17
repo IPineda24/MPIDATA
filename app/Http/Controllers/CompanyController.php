@@ -44,6 +44,12 @@ class CompanyController extends Controller
      */
     public function store(Request $request)
     {
+        $request->validate([
+            'name' => 'nullable|string|max:191',
+            'description' => 'nullable|string|max:191',
+            'NIT' => 'nullable|string|max:14|min:14',
+            
+        ]);
         $newCompany = new Company($request->only([
             'name', 'description', 'NIT'
         ]));

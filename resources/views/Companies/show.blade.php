@@ -78,7 +78,7 @@
                 
                 <div class="mb-2  color-black-500">
                     <p><label for="complete_date" class="form-label"></label></p>
-                    <input type="date" name="pay_to" id="pay_to" value="<?php echo old('pay_to') ?>" placeholder="Selecciona fecha y hora" class="form-input">
+                    <input type="date" name="pay_to" id="pay_to" value="<?php echo old('pay_to') ?>" placeholder="Selecciona fecha y hora" class="form-input  text-black">
                   </div>          
              
            </li></td>  
@@ -89,7 +89,7 @@
             
             <div class="mb-2  color-black-500 ">
                 <p><label for="complete_date" class="form-label"></label></p>
-                <input type="date" name="fail_m" id="fail_m" value="<?php echo old('fail_m') ?>" placeholder="Selecciona fecha y hora" class="form-input">
+                <input type="date" name="fail_m" id="fail_m" value="<?php echo old('fail_m') ?>" placeholder="Selecciona fecha y hora" class="form-input text-black">
               </div>          
        
        </li></td>  
