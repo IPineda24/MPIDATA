@@ -35,7 +35,7 @@
                     <div class="text-teal-400 py-8 md:pt-24"><h1>data</h1></div>
                 </div>
                 <div class="px-4">
-                    <div class="text-xl w-full border-solid border-2 border-teal-500 md:px-4 bg-teal-400 md:w-1/3 md:rounded-full text-2xl"> <p><a href="<?php echo route('about')?>">Conócenos</a></p></div>
+                    
                     <br>
                     <div class="text-xl w-full border-solid border-2 border-teal-500 md:px-4 bg-teal-400 md:w-1/3 md:rounded-full text-2xl"> <p><a href="{{ route('login') }}">iniciar sesión</a></p></div>
                 </div>

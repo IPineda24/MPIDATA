@@ -14,7 +14,7 @@ Route::get('/', 'WelcomeController@home');
 
 
 
-    Route::get('About',  [AboutController::class, 'about'])->name('about');
+   
    
     
         Route::post('nuevo/{id}',    [UserLogin::class, 'login'])->name('login.r');
